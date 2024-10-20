@@ -41,6 +41,9 @@ VALUES
 (11, 'Mark', 'Brendanawicz', 40, 'Male', '1983-06-14'),
 (12, 'Craig', 'Middlebrooks', 37, 'Male', '1986-07-27');
 
+INSERT INTO employee_demographics (employee_id, first_name, last_name, age, gender, birth_date)
+VALUES(13,'Ait Ali', 'Assia',21, 'female','2003-03-01');
+
 
 INSERT INTO employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 VALUES
