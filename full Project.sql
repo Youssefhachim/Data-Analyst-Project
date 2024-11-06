@@ -7,6 +7,7 @@ use world_layoffs;
 
 select * from layoffs;
 
+
 create table layoffs_staging 
 like layoffs;
 
